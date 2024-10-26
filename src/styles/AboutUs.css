@@ -1,0 +1,460 @@
+.AboutUs {
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 16vw;
+    margin-top: 63px;
+}
+
+
+.About_us_Experience {
+    position: absolute;
+    width: 70vw;
+    height: auto;
+    z-index: 3;
+    background-color: #ffffffc5;
+    box-shadow: 14px 14px 14px rgba(0, 0, 0, 0.1);
+    border-radius: 26px;
+    bottom: 64px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.About_us_Experience div {
+    margin-top: 32px;
+    display: flex;
+}
+
+.About_us_Experience div div {
+    margin-right: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #0D92F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.About_us_Experience div span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.About_us_info {
+    margin-top: 80px;
+}
+
+.About_us_box_holder {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+.About_us_box_holder div {
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 14px 14px 14px rgba(0, 0, 0, 0.1);
+}
+
+.About_us_box_holder div p {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 32px;
+}
+
+
+.About_us_info p {
+    width: 70%;
+}
+
+
+.About_us_img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.About_us_img img {
+    border-top-left-radius: 350px;
+}
+
+
+
+
+
+@media screen and (max-width: 460px) {
+
+
+    .AboutUs {
+        flex-direction: column;
+        position: static;
+        padding: 10px;
+    }
+
+    .About_us_box_holder {
+        margin-top: 32px;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .About_us_box_holder div {
+        margin-top: 16px;
+    }
+
+    .About_us_info p {
+        width: 100%;
+    }
+
+    .About_us_img img {
+        border-radius: 10px;
+    }
+
+
+
+
+
+    .About_us_Experience {
+        position: static;
+        width: auto;
+        height: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background-color: #F6F6F6;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+        border-radius: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: self-start;
+        flex-direction: column;
+        left: 0%;
+        transform: translateX(0%);
+    }
+
+    .About_us_Experience div {
+        margin-top: 32px;
+        display: flex;
+
+    }
+
+    .About_us_Experience div h1 {
+        margin-right: 32px;
+    }
+
+    .About_us_Experience div div {
+        margin-right: 8px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        background-color: #0D92F4;
+        margin-bottom: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .About_us_Experience div span {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+
+
+
+
+
+}
+
+@media (min-width: 460px) and (max-width: 630px) {
+
+
+    .AboutUs {
+        flex-direction: column;
+        position: static;
+        padding: 10px;
+    }
+
+
+
+    .About_us_box_holder {
+        margin-top: 32px;
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .About_us_box_holder div {
+        margin-top: 16px;
+    }
+
+    .About_us_info p {
+        width: 100%;
+    }
+
+
+    .About_us_img img {
+        border-radius: 10px;
+    }
+
+
+
+    .About_us_Experience {
+        position: static;
+        width: auto;
+        height: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background-color: #F6F6F6;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+        border-radius: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: self-start;
+        flex-direction: column;
+        left: 0%;
+        transform: translateX(0%);
+    }
+
+    .About_us_Experience div {
+        margin-top: 32px;
+        display: flex;
+
+    }
+
+    .About_us_Experience div h1 {
+        margin-right: 32px;
+    }
+
+    .About_us_Experience div div {
+        margin-right: 8px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        background-color: #0D92F4;
+        margin-bottom: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .About_us_Experience div span {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+
+
+
+}
+
+@media (min-width: 630px) and (max-width: 1024px) {
+
+
+    .AboutUs {
+        flex-direction: column;
+        position: static;
+        padding: 10px;
+    }
+
+
+
+    .About_us_box_holder {
+        margin-top: 32px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .About_us_box_holder div {
+        margin: 32px;
+    }
+
+    .About_us_info p {
+        width: 100%;
+    }
+
+
+    .About_us_img img {
+        border-radius: 10px;
+    }
+
+
+
+    .About_us_Experience {
+        position: static;
+        width: auto;
+        height: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background-color: #F6F6F6;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+        border-radius: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: self-start;
+        flex-direction: column;
+        left: 0%;
+        transform: translateX(0%);
+    }
+
+    .About_us_Experience div {
+        margin-top: 32px;
+        display: flex;
+
+    }
+
+    .About_us_Experience div h1 {
+        margin-right: 32px;
+    }
+
+    .About_us_Experience div div {
+        margin-right: 8px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        background-color: #0D92F4;
+        margin-bottom: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .About_us_Experience div span {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .About_us_img img {
+        border-top-left-radius: 350px;
+    }
+    
+    
+
+}
+
+
+
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .AboutUs {
+        flex-direction: column;
+        position: static;
+        padding: 10px;
+    }
+
+
+
+    .About_us_box_holder {
+        margin-top: 32px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .About_us_box_holder div {
+        margin: 32px;
+    }
+
+    .About_us_info p {
+        width: 100%;
+    }
+
+
+    .About_us_img img {
+        border-radius: 10px;
+    }
+
+
+
+    .About_us_Experience {
+        position: static;
+        width: auto;
+        height: auto;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        background-color: #F6F6F6;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+        border-radius: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: self-start;
+        flex-direction: column;
+        left: 0%;
+        transform: translateX(0%);
+    }
+
+    .About_us_Experience div {
+        margin-top: 32px;
+        display: flex;
+
+    }
+
+    .About_us_Experience div h1 {
+        margin-right: 32px;
+    }
+
+    .About_us_Experience div div {
+        margin-right: 8px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50px;
+        background-color: #0D92F4;
+        margin-bottom: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .About_us_Experience div span {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .About_us_img  {
+       width: 100%;
+       display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .About_us_img img {
+        border-radius: 30px;
+    }
+    
+}
+
+
+@media (min-width: 1440px) and (max-width: 1940px) {}

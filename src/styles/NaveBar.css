@@ -1,0 +1,43 @@
+.Navbar {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: 0;
+  background-color: #0d94f411 !important;
+  /* backdrop-filter: blur(25px);
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px; */
+  z-index: 3;
+}
+.nav_Link {
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 0 16px;
+}
+.nav_Link:hover {
+  color: #e4e4e4;
+}
+.nav_Link_blur {
+  color: #e4e4e400;
+}
+.brand_logo{
+    height: 60px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #responsive-navbar-nav{
+        color: #000000;
+        background-color: #11395a63;
+        backdrop-filter: blur(20px);
+        border-radius: 26px;
+        padding: 8px;
+    }
+    .nav_Link {
+        margin: 8px;
+      }
+  }
+
+  

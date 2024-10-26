@@ -1,0 +1,133 @@
+
+
+
+
+.book_box_parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+.nav_title{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.book_box_holders{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pagination{
+
+    display: block;
+}
+.book_box_category{
+    display: block;
+}
+
+.book_box{
+  width: 410px;
+  height: 480px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 26px;
+  border: 1px solid #ffffff;
+}
+
+.book_box_img{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23.5px;
+    border-radius: 22px;
+}
+.book_box_img img{
+    border-radius: 22px;
+}
+
+.book_box_icon{
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    right: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.book_box_info{
+    padding:8px 23px;
+}
+.book_box_info div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.book_btn{
+    outline: none;
+    border-radius: 26px;
+    padding: 4px 10px;
+    border: 1.5px solid #3D3D3D;
+    background-color: #ffffff;
+    font-weight: 400;
+}
+.book_New{
+    outline: none;
+    border-radius: 26px;
+    padding: 4px 10px;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 400;
+}
+
+
+.book_box_line{
+    margin-top: 20px;
+    width: 100%;
+    height: 0.5px;
+    background-color: #3D3D3D;
+}
+
+.book_box_price p{
+    margin-top: 14px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+.book_box_price span{
+    font-size: 14px;
+    color: #000000;
+    font-weight: 300;
+}
+
+.Filters{
+    background-color: #3D3D3D;
+    outline: none;
+    border: none;
+    border-radius: 26px;
+    padding: 4px 16px;
+}
+
+.Typography_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.Typography_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
